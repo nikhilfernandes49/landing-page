@@ -17,11 +17,11 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #F9FAF8;
-  margin-left: 50px;
+  margin-left: 240px;
 }
 
 .header-links {
-  margin-right: 50px;
+  margin-right: 240px;
 }
 
 ul {
@@ -38,4 +38,42 @@ a {
 
 .body {
   flex: 1;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1F2937;
+}
+
+.hero-img {
+  width: auto;
+  height: 215px;
+}
+
+.hero-text {
+  width: 400px;
+  color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  height: 215px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8
+}
+
+.button {
+  background-color: #3882F6;
+  padding: 5px;
+  width: 70px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
 }
